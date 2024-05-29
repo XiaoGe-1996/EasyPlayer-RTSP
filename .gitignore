@@ -1,0 +1,9 @@
+.gradle
+.idea
+build
+*.iml
+local.properties
+gradle.properties
+EasyPlayer/basic/
+EasyPlayer/release
+.hprof
