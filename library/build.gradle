@@ -1,5 +1,18 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'maven-publish'
+group='com.github.xiaoge-1996'
+//afterEvaluate {
+//    publishing {
+//        publications {
+//            release(MavenPublication) {
+//                from components.release
+//                groupId = 'com.xiaoge.easyplayer-rtsp'
+//                artifactId = 'easyplayer'
+//                version = '1.0.2'
+//            }
+//        }
+//    }
+//}
 android {
     compileSdkVersion 31
     buildToolsVersion '30.0.3'
